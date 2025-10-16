@@ -1,7 +1,7 @@
 body {
   background-color: #325E39;
   font-family: "Lora", serif; 
-  margain: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -12,14 +12,15 @@ div {
 }
 
 nav {
-    background-color: #2a1f14;
+
 }
 
 nav ul {
-    background color: black;
+    background-color: black;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 nav li a {
@@ -30,7 +31,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: white;
+    background-color: #111111;
 }
 
 img {
