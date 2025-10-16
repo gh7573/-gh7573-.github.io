@@ -2,3 +2,9 @@ body {
   background-color: blue;
   font-family: "Lora", serif; 
 }
+
+div {
+  border-style: solid;
+  border-width: 10px;
+  margain: 10px;
+}
