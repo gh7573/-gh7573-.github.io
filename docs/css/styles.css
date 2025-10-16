@@ -3,7 +3,7 @@ body {
   font-family: "Lora", serif; 
   margin: 0;
   padding: 0;
-  font-color: white;
+  color: #ffffff;
 }
 
 div {
@@ -12,27 +12,27 @@ div {
   margain: 10px;
 }
 
-nav {
-
+header {
+  text-align: center;
 }
 
 nav ul {
-    background-color: black;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav li a {
-    display: block;
-    color: white;
-    padding: 14px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  padding: 14px;
+  text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #424242;
+  background-color: #424242;
 }
 
 img {
