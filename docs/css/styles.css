@@ -43,6 +43,10 @@ p {
   padding: 25px; 
 }
 
+p a {
+  color: #C7EFFF
+  text-decoration: none;
+
 footer {
   text-align: center;
 }
