@@ -57,22 +57,15 @@ footer {
 /* Media Queries */
 
 /* Media Query for Tablet Viewport */
-@media screen and (min-width: 620px), print {
+@media screen and (min-width: 768px), print {
   body {
     background-color: lightblue;
   }
 }
 
-/* Media Query for Large Desktop Viewports */
-@media screen and (min-width: 1921px) {
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 992px) {
   body {
     background-color: lightgreen;
-  }
-}
-
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 1000px), print {
-  body {
-    background-color: F5B9AE;
   }
 }
