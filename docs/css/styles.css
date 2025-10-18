@@ -50,6 +50,10 @@ footer {
   text-align: center;
 }
 
+h3 {
+  text-decoration: underline;
+}
+
 .banner {
   background-image: url('/images/banner3.jpg');
   background-repeat: no-repeat;
