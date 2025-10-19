@@ -35,6 +35,10 @@ nav li a:hover {
   background-color: #424242;
 }
 
+nav li a:visited {
+  background-color: #707070;
+}
+
 p {
   padding: 25px; 
 }
