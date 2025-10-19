@@ -35,18 +35,8 @@ nav li a:hover {
   background-color: #424242;
 }
 
-nav li a:visited {
- background-color: blue;
-}
-
 p {
   padding: 25px; 
-}
-
-.titlebold {
-  text-decoration: underline;
-  padding: 25px;
-  font-weight: bold;
 }
 
 a {
