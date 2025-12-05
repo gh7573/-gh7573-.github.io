@@ -76,6 +76,8 @@ iframe {
   background-color: #473157;
   font-family: "Lora", serif;
   color: #ffffff;
+  border-collapse: collapse;
+  margin: 20px auto;
 }
   
 /* Media Queries */
