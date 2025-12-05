@@ -84,13 +84,15 @@ th, td {
 }
 
 th {
- background-image: linear-gradient(to bottom, #19192E, #1A1A30);
+ background-image: linear-gradient(to bottom, red, #1A1A30);
  font-weight: bold;
- font-size: 30px;
+ font-size: 20px;
+ text-align: center;
 }
 
 tr:nth-child(even) {
  background-color: #19192E;
+ font-size: 10px;
 }
   
 /* Media Queries */
