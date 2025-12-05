@@ -84,8 +84,9 @@ th, td {
 }
 
 th {
- background-color: #3E3E70;
+ background-image: linear-gradiient(to bottom, #19192E, #1A1A30;
  font-weight: bold;
+ font-size: 30px;
 }
 
 tr:nth-child(even) {
