@@ -92,7 +92,7 @@ th {
 }
 
 tr:nth-child(even) {
- background-color: #19192E;
+ background-image: linear-gradient(to bottom, #313157, #1A1A30);
  font-size: 20px;
 }
   
