@@ -74,6 +74,7 @@ iframe {
 
 table {
  border-collapse: collapse;
+ border: 2px solid red; 
  margin: 20px auto;
 }
 
