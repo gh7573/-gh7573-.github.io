@@ -71,6 +71,12 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+
+.table-content {
+  background-color: #473157;
+  font-family: "Lora", serif;
+  color: #ffffff;
+}
   
 /* Media Queries */
 
