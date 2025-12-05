@@ -84,7 +84,7 @@ th, td {
 }
 
 th {
- background-image: linear-gradiient(to bottom, #19192E, #1A1A30;
+ background-image: linear-gradient(to bottom, #19192E, #1A1A30);
  font-weight: bold;
  font-size: 30px;
 }
