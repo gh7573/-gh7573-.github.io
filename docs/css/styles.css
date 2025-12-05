@@ -75,6 +75,7 @@ iframe {
 table {
  border-collapse: collapse;
  border: 2px solid #ffffff;
+ font-size: 20px;
 }
 
 th, td {
@@ -84,15 +85,15 @@ th, td {
 }
 
 th {
- background-image: linear-gradient(to bottom, red, #1A1A30);
+ background-image: linear-gradient(to bottom, #313157, #1A1A30);
  font-weight: bold;
- font-size: 20px;
+ font-size: 30px;
  text-align: center;
 }
 
 tr:nth-child(even) {
  background-color: #19192E;
- font-size: 10px;
+ font-size: 20px;
 }
   
 /* Media Queries */
