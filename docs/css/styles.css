@@ -85,14 +85,14 @@ th, td {
 }
 
 th {
- background-image: linear-gradient(to bottom, #1A1A30, #272733);
+ background-image: linear-gradient(to bottom, #1A1A30, #08082B);
  font-weight: bold;
  font-size: 30px;
  text-align: center;
 }
 
 tr:nth-child(even) {
- background-image: linear-gradient(to bottom, #1A1A30, #272733);
+ background-image: linear-gradient(to bottom, #1A1A30, #08082B);
  font-size: 20px;
 }
   
