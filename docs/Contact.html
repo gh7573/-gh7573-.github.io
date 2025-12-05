@@ -46,12 +46,6 @@
         </fieldset>
         <button type="submit" id="showToastBtn" class="btn btn-primary">Submit</button>
     </form>
-      <div class="toast-show" id="myToast">
-         <div class="toast-body">
-            Your question has been submitted
-            <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
-         </div>
-      </div>
    </div>
    <div class="col-md">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30100.908983393685!2d-155.27748888774852!3d19.42909326045499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7953d6adb4207fc3%3A0xbdefd717795aec2!2sHawaii%20Volcanoes%20National%20Park%2C%20HI%2096785!5e0!3m2!1sen!2sus!4v1760595456489!5m2!1sen!2sus" height="450" width="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -64,9 +58,7 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
    <script> 
       document.getElementById("showToastBtn").onclick=function() {
-         var toastEL = document.getElementById("myToast");
-         var toast = new bootstrap.Toast(toastEL);
-         toast.show();
+        alert("your question has been submitted");
    }
    </script>
 </body>
