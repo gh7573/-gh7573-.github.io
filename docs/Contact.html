@@ -30,7 +30,7 @@
    </div>
    <div>
       <div class="form container mt-3">
-    <form>
+    <form id="questionForm">
         <fieldset>
             <legend>Ask a Question</legend>
             <label for="name" class="form-label">Name:</label>
@@ -56,10 +56,18 @@
    </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
    <script> 
-      document.getElementById("showToastBtn").onclick=function() {
-         var name=document.getElementById("name").value
-        alert("hi " + name + ", your question has been submitted");
-   }
+      const form = document.getElementById("questionForm");
+
+      form.addEventListener("submit", function (event) {
+         if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+            alert("Form is Invalid - Please fix requested fields");
+         } else {
+            var name=document.getElementById("name").value
+           alert("hi " + name + ", your question has been submitted");   
+         }
+      });
    </script>
 </body>
 </html>
