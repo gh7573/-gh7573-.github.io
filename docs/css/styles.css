@@ -109,6 +109,10 @@ tr:nth-child(even) {
 ol {
 font-size: 22px;
 }
+
+ul {
+font-size: 22px;
+}
   
 /* Media Queries */
 
