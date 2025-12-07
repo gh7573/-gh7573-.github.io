@@ -14,6 +14,11 @@ div {
   box-shadow: 5px 5px 2px black;
 }
 
+div.form {
+ border-style: none;
+ margin: 10px 20px;
+}
+
 header {
   text-align: center;
 }
