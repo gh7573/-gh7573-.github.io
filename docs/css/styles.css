@@ -17,6 +17,8 @@ div {
 div.form {
  border-style: none;
  margin: 10px 20px;
+ border-radius: none;
+ box-shadow: none;
 }
 
 header {
@@ -101,10 +103,6 @@ th {
 tr:nth-child(even) {
  background-image: linear-gradient(to bottom, #08082B, #262652);
  font-size: 20px;
-}
-
-input {
-margin: 5px 20px;
 }
 
 ol {
